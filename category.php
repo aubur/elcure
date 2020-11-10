@@ -27,8 +27,8 @@
                </div>
             </div>
             <div class="row" style="justify-content: center;">
-               <div class="col-md-2" data-aos="fade-up"  data-aos-duration="1000">
-                  <div class="product-nature pb-5 pc-desktop hidden-menu">
+               <div class="col-lg-2 col-md-4" data-aos="fade-up"  data-aos-duration="1000">
+                  <div class="product-nature pb-5 pc-desktop hidden-menu desktop-side-menu">
                      <form>
                         <div class="color cp mt-2 w-100 acive" id="product">
                            <div class="product-sidebar-header">
@@ -139,8 +139,34 @@
                         </div>
                      </form>
                   </div>
+                  <!--  -->
+                  <button class="triggerSidebar">hum</button>
+            <div class="Sidenavbar2">
+                <div class="header">
+                    <a href="">Menu</a>
+                    <a class="hideSidebar3 label label-default"> <i class="fa fa-times-circle"></i>
+                    Close</a>
+                </div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Wellness</a></li>
+                    <li><a href="">beauty</a></li>
+                    <li><a href="">facecare</a></li>
+                    <li><a href="">skincare</a></li>
+                    <li><a href="">haircare</a></li>
+                    <li><a href="">hygiene</a></li>
+                    <li><a href="">produts</a></li>
+                    <li><a href="">ingredients</a></li>
+                    <li><a href="">about us</a></li>
+                    <li class="btop"></li>
+                    <li><a href="" class="no-bold">Account</a></li>
+                    <li><a href="" class="no-bold">order</a></li>
+                    <li><a href="" class="no-bold">contact us</a></li>
+                </ul>
+            </div>
+                  <!--  -->
                </div>
-               <div class="col-md-9">
+               <div class="col-lg-9 col-md-8" style="z-index: -1">
                   <div class="product-listing"  data-aos="fade-up"  data-aos-duration="1000">
                      <div class="products">
                         <div class="img-sec zoomWrapper">
@@ -209,6 +235,7 @@
                </div>
             </div>
          </div>
+            <?php include 'footer-sec.php';?>
       </main>
 
       <?php include 'footer.php';?>

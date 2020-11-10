@@ -62,6 +62,26 @@
 	.buy {
     		font-size: 16px;
 	}
+	.products-listin-sec .products{
+		display: block;
+	}
+	.products-listin-sec .img-sec{
+		width: 35%;
+		margin: 0 auto 1rem ;
+	}
+	.products-listin-sec .products-details {
+    padding: unset;	
+    }
+    .products-listin-sec .product-description{
+    	justify-content: center;
+    }
+    .products-listin-sec .product-description{
+    	padding-top: 1rem;
+    }
+    .products-listin-sec .product-description .btn {
+   	 font-size: 14px;
+    	padding: .4rem .7rem;
+	}
 }
 @media screen and (min-width:640px) and (max-width:767px){
 
@@ -114,6 +134,17 @@ main .carousel .carosuel-captions h1{
 			width: 	70%;
 			margin:1rem auto;
 		}
+}
+@media screen and (max-width:767px){
+	.desktop-side-menu{
+		display: none;
+	}
+	.mob{
+		display: none;
+	}
+	.navs_{
+        display: block;
+    }
 }
 @media screen and (max-width:480px){
 		.Products-sec{

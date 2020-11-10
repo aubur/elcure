@@ -112,16 +112,16 @@
                     Close</a>
                 </div>
                 <ul>
-                    <li><a href="" class="nb">Home</a></li>
+                    <li><a href="">Home</a></li>
                     <li><a href="">Wellness</a></li>
                     <li><a href="">beauty</a></li>
-                    <li><a href="" class="nb">facecare</a></li>
+                    <li><a href="">facecare</a></li>
                     <li><a href="">skincare</a></li>
-                    <li><a href="" class="nb">haircare</a></li>
+                    <li><a href="">haircare</a></li>
                     <li><a href="">hygiene</a></li>
-                    <li><a href="" class="nb">produts</a></li>
+                    <li><a href="">produts</a></li>
                     <li><a href="">ingredients</a></li>
-                    <li><a href="" class="nb">about us</a></li>
+                    <li><a href="">about us</a></li>
                     <li class="btop"></li>
                     <li><a href="" class="no-bold">Account</a></li>
                     <li><a href="" class="no-bold">order</a></li>

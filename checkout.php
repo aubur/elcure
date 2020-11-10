@@ -5,8 +5,7 @@
       <?php include 'header.php';?>
       <main>
         <section style="padding-top: 113px">
-          <div class="inner-banner" style="background: url(images/inner-banner.svg);    background-size: cover;
-    background-position: left;">
+          <div class="inner-banner" style="background: url(images/inner-banner.svg);    background-size: cover; background-position: left;">
             <!--  <img src="images/inner-banner.svg" alt=""> -->
               <h1>Checkout</h1>
           </div>

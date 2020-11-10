@@ -184,6 +184,39 @@
                
                $('.hideSidebar2').click(kori)
                $('.overlay2').click(kori)
+               // 
+
+                $('.triggerSidebar').click(function() {
+                $('.Sidenavbar2').css('right', '0px')
+                $('.overlay2').css('display', 'block')
+               })
+               
+               var kori = function() {
+               $('.overlay2').css('display', 'none')
+               $('.Sidenavbar2').css('right', '-405px')
+               }
+               
+               $('.hideSidebar3').click(kori)
+               $('.overlay2').click(kori)
+               // 
+
+
+
+             $('.triggerSidebar-category').click(function() {
+                // alert(1);
+                $('.mobile-side-menu').css('right', '0px');
+                // alert(2);
+                // $('.overlay').css('display', 'block')
+               })
+               
+               var kori2 = function() {
+                // alert(3);
+               // $('.overlay').css('display', 'none')
+               $('.mobile-side-menu').css('right', '-405px')
+               }
+               
+               $('.hideSidebar').click(kori2)
+               // $('.overlay').click(kori2)
        
      
             $('.carosuel_').slick({
