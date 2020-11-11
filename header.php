@@ -40,13 +40,13 @@
                                     <a class="nav-link" href="hygiene.php">Hygiene  </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="product_list.html">Products  </a>
+                                    <a class="nav-link" href="product_list.php">Products  </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="ingredients.php">Ingredients </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="product_list.html">About Us </a>
+                                    <a class="nav-link" href="#">About Us </a>
                                 </li>
                             </ul>
                         </div>

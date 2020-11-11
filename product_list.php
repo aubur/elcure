@@ -1,130 +1,20 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>ECare</title>
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="css/bootstrap.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/responsive.css">
-      <link rel="stylesheet" href="css/animate.css">
-      <link rel="stylesheet" type="text/css" href="css/slick.css" />
-      <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
-      <link rel="shortcut icon" href="images/logo.png" type="image/png">
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-         />
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-   </head>
+   <?php include 'head.php';?>
    <body>
-      <header>
-         <div class="bb uh">
-            <div class="marquee" style="    padding: 10px 0 0;
-               margin: 0;
-               font-size: 14px;
-               background: #495E3D;
-               color:#fff;
-               }">
-               <marquee>🔔Big Super Saver Week: Upto 30% Off On Monthly Regimes. Limited Time Offer! 🔔</marquee>
-            </div>
-         </div>
-         <div class="menu-sec" style="background: #c5e6e6">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg navbar-light ">
-                        <a class="navbar-brand" href="index.html">
-                        <img src="images/logo.png" alt="">
-                        </a>
-                        <button class="navbar-toggler triggerSidebar2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse desktop-nav" id="navbarSupportedContent">
-                            <ul class="navbar-nav m-auto">
-                                <li class="nav-item ">
-                                    <a class="nav-link active" href="product_list.html">Wellness</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="product_list.html">Beauty</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="product_list.html"> Facecare </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="product_list.html">Skincare </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="product_list.html">Haircare </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="product_list.html">Hygiene  </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="product_list.html">Products  </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="wellness.html">Ingredients </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="product_list.html">About Us </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="cart-section desktop-nav">
-                            <form action="" role="search" class="search-form">    
-                                <input type="search" name="q" class="search-text" placeholder="Search..." autocomplete="off">
-                            </form>
-                            <a href="" class="cart">
-                                <i class="fas fa-cart-plus"></i>
-                                <div class="qty">
-                                    9
-                                </div>
-                            </a>
-                            <a href="" class="cart">
-                                <i class="far fa-heart" style="color: #222"></i>
-                                <div class="qty">
-                                    9
-                                </div>
-                            </a>
-                            <a href="" class="cart">
-                                <i class="fas fa-user-alt"  style="color: #222"></i>
-                               
-                            </a>
-                        </div>
-                    </nav>
-            </div>
-         </div>
-         <!--Mobile Sidebar  -->
-         <div class="Sidenavbar">
-            <div class="header">
-               <a href="">Menu</a>
-               <a class="hideSidebar2 label label-default"> <i class="fa fa-times-circle"></i>
-               Close</a>
-            </div>
-            <form class="form-inline">
-               <input class="form-control border-none" type="search" placeholder="Search" aria-label="Search">
-            </form>
-            <ul>
-               <li><a href="" class="nb">Home</a></li>
-               <li><a href="">Products</a></li>
-               <li><a href="">About us</a></li>
-               <li><a href="" class="nb">Testimonial</a></li>
-            </ul>
-         </div>
-      </header>
+     <?php include 'header.php';?>
       <main>
         <section style="padding-top: 113px">
-          <div class="inner-banner" >
+          <div class="inner-banner" style="background: url(images/inner-banner.svg);    background-size: cover;
+    background-position: left;">
             <!--  <img src="images/inner-banner.svg" alt=""> -->
-              <h1>Wellness</h1>
+              <h1>Products</h1>
           </div>
         </section>
          <div class="container-fluid products-listin-sec product-category pt-4" >
             <div class="header-sec">
                <div class="">
-                  <h2>Wellness</h2>
+                  <h2>Products</h2>
                </div>
                <div class="    ">
                   <select style=" font-size: 13px" class="form-control">
@@ -320,63 +210,7 @@
             </div>
          </div>
       </main>
-      <footer>
-         <div class="footer-top-section section bg-dark">
-            <div class="container">
-               <div class="footer-widget-wrap row" style="justify-content: center;">
-                  <div class="col-md-3 mb-40">
-                     <div class="footer-widget">
-                        <img src="images/logo.png" alt="">
-                        <p>We provide the best  oil all over the world. We are the worldd best store for  Oil. You can buy our</p>
-                        <p>228, East Zone, Momeno Tower, South City, India</p>
-                        <p>+12546 687 987&nbsp; / +15425 987 541</p>
-                        <p>demo@example.com ww.example.com</p>
-                     </div>
-                  </div>
-                  <div class="col-md-3 mb-40">
-                     <div class="footer-widget">
-                        <h3 class="title">Quick Link</h3>
-                        <ul>
-                           <li><a href="#">About</a></li>
-                           <li><a href="#">All Products</a></li>
-                           <li><a href="#">Shipping policy</a></li>
-                           <li><a href="#">Contact</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 mb-40">
-                     <div class="footer-widget">
-                        <h3 class="title">Information</h3>
-                        <ul>
-                           <li><a href="#">Login</a></li>
-                           <li><a href="#">My Account</a></li>
-                           <li><a href="#">Terms &amp; Conditions</a></li>
-                           <li><a href="#">Order Tracking</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 mb-40">
-                     <div class="footer-widget">
-                        <h3 class="title">Follow us</h3>
-                        <ul>
-                           <li><a href="#">Facebook</a></li>
-                           <li><a href="#">Twitter</a></li>
-                           <li><a href="#">Instagram</a></li>
-                           <li><a href="#">Linkedin</a></li>
-                           <li><a href="#">Google Plus</a></li>
-                           <li><a href="#">Youtube</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <script src="js/jquery-3.4.1.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/slick.min.js"></script>
-      <script src="js/aos.js"></script>
-      <script src="js/index.js"></script>
+     <?php include 'footer.php';?>
+      
    </body>
 </html>
