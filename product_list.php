@@ -4,10 +4,8 @@
    <body>
      <?php include 'header.php';?>
       <main>
-        <section style="padding-top: 113px">
-          <div class="inner-banner" style="background: url(images/inner-banner.svg);    background-size: cover;
-    background-position: left;">
-            <!--  <img src="images/inner-banner.svg" alt=""> -->
+        <section class="banner-top-fix">
+          <div class="inner-banner" style="background: url(images/inner-banner.svg);    background-size: cover;background-position: left;">
               <h1>Products</h1>
           </div>
         </section>
@@ -16,7 +14,7 @@
                <div class="">
                   <h2>Products</h2>
                </div>
-               <div class="    ">
+               <div class="">
                   <select style=" font-size: 13px" class="form-control">
                      <option>Sort By</option>
                      <option>Featured</option>
@@ -28,7 +26,7 @@
             </div>
             <div class="row" style="justify-content: center;">
                <div class="col-md-2" data-aos="fade-up"  data-aos-duration="1000">
-                  <div class="product-nature pb-5 pc-desktop hidden-menu">
+                  <div class="product-nature pb-5 pc-desktop hidden-menu desktop-menubar">
                      <form>
                         <div class="color cp mt-2 w-100 acive" id="product">
                            <div class="product-sidebar-header">
@@ -53,61 +51,6 @@
                                  <input type="checkbox">
                                  <span class="checkmark"></span>
                                  </label>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="color cp mt-3 w-100" id="color">
-                           <div class="product-sidebar-header">
-                              <h2 class="d-inline-block">shop by colour</h2>
-                              <div class="d-inline-block float-right pc-arrow">
-                                 <i class="fas fa-chevron-down"></i>
-                              </div>
-                           </div>
-                           <div class="border-b"></div>
-                           <div>
-                              <!-- id="toggle-color" class="collapse in" -->
-                              <div class="my-3" id="color-content">
-                                 <div class="col-md-12">
-                                    <div class="row" style="font-size: 13px">
-                                       <div class="color-outer">
-                                          <label class="color-con"><span class="number"></span>
-                                          <input type="checkbox">
-                                          <span class="checkmark-color black"></span>
-                                          </label>
-                                          <div class="color-text">
-                                             <p>black</p>
-                                          </div>
-                                       </div>
-                                       <div class="color-outer">
-                                          <label class="color-con"><span class="number"></span>
-                                          <input type="checkbox">
-                                          <span class="checkmark-color green"></span>
-                                          </label>
-                                          <p>Green</p>
-                                       </div>
-                                       <div class="color-outer">
-                                          <label class="color-con"><span class="number"></span>
-                                          <input type="checkbox">
-                                          <span class="checkmark-color grey"></span>
-                                          </label>
-                                          <p>grey</p>
-                                       </div>
-                                       <div class="color-outer">
-                                          <label class="color-con"><span class="number"></span>
-                                          <input type="checkbox">
-                                          <span class="checkmark-color pink"></span>
-                                          </label>
-                                          <p>pink</p>
-                                       </div>
-                                       <div class="color-outer">
-                                          <label class="color-con"><span class="number"></span>
-                                          <input type="checkbox" checked="checked">
-                                          <span class="checkmark-color blue"></span>
-                                          </label>
-                                          <p>blue</p>
-                                       </div>
-                                    </div>
-                                 </div>
                               </div>
                            </div>
                         </div>
@@ -150,14 +93,14 @@
                            <h2>Tea Tree Essential Oil</h2>
                            <p>Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering...</p>
                            <p class="rates">₹200</p>
-                           <div class="row buy-products-btn product-description" style="flex-wrap:  nowrap;  ">
-                              <div class="">
-                                 <a href="" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
+                           <div class="row buy-products-btn product-description m-0" style="flex-wrap:  nowrap;  ">
+                              <div class="bt">
+                                 <a href="cart.php" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
                               </div>
-                              <div class="">
+                              <div class="bt">
                                  <a href="product_description.html" class="btn_ btn">Buy it </a>
                               </div>
-                              <div class="">
+                              <div class="bt">
                                  <a href="" class="btn_ btn"><i class="far fa-heart"></i>Add to Wishlist</a>
                               </div>
                            </div>
@@ -172,13 +115,13 @@
                            <p>Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering...</p>
                            <p class="rates">₹200</p>
                            <div class="row buy-products-btn product-description" style="flex-wrap:  nowrap;  ">
-                              <div class="">
-                                 <a href="" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
+                              <div class="bt">
+                                 <a href="cart.php" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
                               </div>
-                              <div class="">
+                              <div class="bt">
                                 <a href="product_description.html" class="btn_ btn">Buy it </a>
                               </div>
-                              <div class="">
+                              <div class="bt">
                                  <a href="" class="btn_ btn"><i class="far fa-heart"></i>Add to Wishlist</a>
                               </div>
                            </div>
@@ -193,13 +136,13 @@
                            <p>Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering...</p>
                            <p class="rates">₹200</p>
                            <div class="row buy-products-btn product-description" style="flex-wrap:  nowrap;  ">
-                              <div class="">
-                                 <a href="" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
+                              <div class="bt">
+                                 <a href="cart.php" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
                               </div>
-                              <div class="">
+                              <div class="bt">
                                  <a href="product_description.html" class="btn_ btn">Buy it </a>
                               </div>
-                              <div class="">
+                              <div class="bt">
                                  <a href="" class="btn_ btn"><i class="far fa-heart"></i>Add to Wishlist</a>
                               </div>
                            </div>

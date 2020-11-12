@@ -2606,3 +2606,6 @@ header .mobile-nav-bar .r-sec{
     .border-b{
         border-bottom: 1px solid #eee;
     }
+    .banner-top-fix{
+        padding-top: 113px;
+    }
