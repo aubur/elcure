@@ -12,12 +12,11 @@
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active carosuel_1">
                                     <div  class="row align-items-center m-0 ">
-                                        <div class="col-md-7 col-6 d-n" style="height: 100vh">
+                                        <div class="col-md-7 col-6 d-n" style="height: 80vh">
                                         </div>
                                         <div class="col-md-5 col-12">
                                             <div class="hero-content  text-center ">
@@ -688,9 +687,6 @@
                   <div class="blog">
                            <div class="heading__" data-aos="fade-up"  data-aos-duration="1000">
                               <h1>Blog</h1>
-                             <div class="heading_back">
-                            &nbsp;&nbsp;&nbsp;Blog
-                             </div>
                            </div>
                            <div class="row m-0" style="justify-content: space-between;" data-aos="fade-up"  data-aos-duration="1000">
                               <div class="col-md-6">
