@@ -65,7 +65,9 @@ header .cart-section .fas,
 header .upper-header .far {
     color: #222;
 }
-
+header .cart-section  a{
+    text-decoration: none;
+}
 header .upper-header {
     display: flex;
     display: -webkit-box;

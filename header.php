@@ -143,8 +143,8 @@
                               <button  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: transparent;border: none;overflow: hidden;">
                                 <img src="images/search.svg">
                               </button>
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <div class="form-group">
+                              <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+                                <div class="form-group p-0 m-0">
                                     <input type="search" name="" class="form-control" placeholder="Search...">
                                 </div>
                               </div>
