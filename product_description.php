@@ -99,10 +99,10 @@
                               </div>
                               <div class="rows buy-products-btn" style="flex-wrap:  nowrap;  ">
                                  <div class="">
-                                    <a href="" class="  btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
+                                    <a href="cart.php" class="  btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
                                  </div>
                                  <div class="">
-                                    <a href=""  class="  btn_ btn">Buy it Now</a>
+                                    <a href="checkout.php"  class="  btn_ btn">Buy Now</a>
                                  </div>
                                  <div class="">
                                     <a href=""  class="  btn_ btn"><i class="far fa-heart" ></i>Add to Wishlist</a>
@@ -121,6 +121,12 @@
                         <li class="nav-item" role="presentation">
                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Shipping Details</a>
                         </li>
+                        <li class="nav-item" role="presentation">
+                           <a class="nav-link" id="contact-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Review</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                           <a class="nav-link" id="contact-tab" data-toggle="tab" href="#Ingredients" role="tab" aria-controls="Ingredients" aria-selected="false">Ingredients</a>
+                        </li>
                      </ul>
                      <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -137,6 +143,43 @@
                               <p>
                                  You should expect to receive your refund within four weeks of giving your package to the return shipper, however, in many cases you will receive a refund more quickly. This time period includes the transit time for us to receive your return from the shipper (5 to 10 business days), the time it takes us to process your return once we receive it (3 to 5 business days), and the time it takes your bank to process our refund request (5 to 10 business days).
                               </p>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="contact-tab">
+                           <div class="content">
+                              <div class="review-details">
+                                <div  class="user-name">
+                                  <img src="images/profile.svg"><p>Rohit K</p>
+                                </div>
+                                <p class="my-2">
+                                  This is a very effective face wash it does all it says it brings an instant how just after we use it is a quite good product from Eclare of course
+                                </p>
+                              </div>
+                              <div class="border-b"></div>
+                           </div>
+                           <div class="content">
+                              <div class="review-details">
+                                <div  class="user-name">
+                                  <img src="images/profile.svg"><p>Rohit K</p>
+                                </div>
+                                <p class="my-2">
+                                  This is a very effective face wash it does all it says it brings an instant how just after we use it is a quite good product from Eclare of course
+                                </p>
+                              </div>
+                              <div class="border-b"></div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="Ingredients" role="tabpanel" aria-labelledby="contact-tab">
+                           <div class="content">
+                              <h2>Ingredients</h2>
+                              <ul>
+                                <li>Rubia cordifolia (Manjistha)</li>
+                                <li>Mesua ferrea (Nagkeser)</li>
+                                <li>Bacopq monnieri (Brahmi)</li>
+                                <li>Eclipta alba (Brahmi)</li>
+                                <li>Emblica officinalis (Amlaki)</li>
+                                <li>Glycyrrhiza glabra (Yasti)</li>
+                              </ul>
                            </div>
                         </div>
                      </div>

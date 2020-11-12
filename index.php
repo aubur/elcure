@@ -25,7 +25,7 @@
                                             <div class="hero-content  text-center ">
                                                 <h2 class="animate__animated animate__fadeInRight animate__delay-1s">HAIR OIL</h2>
                                                 <h1 class="animate__animated animate__fadeInUp animate__delay-2s">FOR GLOSSY <br>  AND <br>STYLISH HAIR</h1>
-                                                <a class="btn btn-round btn-lg btn-theme btn_ animate__animated animate__fadeInLeft animate__delay-3s" href="" tabindex="0">SHOP NOW</a>
+                                                <a class="btn btn-round btn-lg btn-theme btn_ animate__animated animate__fadeInLeft animate__delay-3s" href="cart.php" tabindex="0">SHOP NOW</a>
                                             </div>
                                         </div>
                                     </div>
@@ -36,7 +36,7 @@
                                             <div class="hero-content  text-center ">
                                                 <h2 class="animate__animated animate__fadeInRight animate__delay-1s">HAIR OIL</h2>
                                                 <h1 class="animate__animated animate__fadeInUp animate__delay-2s">FOR GLOSSY <br>  AND <br>STYLISH HAIR</h1>
-                                                <a class="btn btn-round btn-lg btn-theme btn_ animate__animated animate__fadeInLeft animate__delay-3s" href="" tabindex="0">SHOP NOW</a>
+                                                <a class="btn btn-round btn-lg btn-theme btn_ animate__animated animate__fadeInLeft animate__delay-3s" href="cart.php" tabindex="0">SHOP NOW</a>
                                             </div>
                                         </div>
                                         <div class="col-md-7 col-12 d-n" style="height: 100vh">
@@ -116,7 +116,7 @@
                 </div>
             </section>
             <section class="back-attach3">
-                <form action="product_detail.html">  
+                <form action="cart.php">  
                 <div class="featured ft mt-fix">
                     <div class="container">
                         <div class="heading__"  data-aos="fade-up"  data-aos-duration="1000">
@@ -293,10 +293,10 @@
                                                 <h2>Wonder Hair Oil</h2>
                                             </div>
                                             <div class="Cart-sec-hover">
-                                                <a href=" " title="Add to cart">
+                                                <a href="cart.php" title="Add to cart">
                                                 <i class="fas fa-cart-plus"></i>
                                                 </a>      
-                                                <a href=" "  title="Add to wishlist">
+                                                <a href=" cart.php"  title="Add to wishlist">
                                                 <i class="far fa-heart" style="color: #222"></i>
                                                 </a>
                                                 <a href=" " title="Quick view"  data-toggle="modal" data-target="#quickview">
@@ -316,13 +316,13 @@
                                                 <h2>Wonder Hair Oil</h2>
                                             </div>
                                             <div class="Cart-sec-hover">
-                                                <a href=" " title="Add to cart">
+                                                <a href="cart.php" title="Add to cart">
                                                 <i class="fas fa-cart-plus"></i>
                                                 </a>      
-                                                <a href=" "  title="Add to wishlist">
+                                                <a href="cart.php "  title="Add to wishlist">
                                                 <i class="far fa-heart" style="color: #222"></i>
                                                 </a>
-                                                <a href=" " title="Quick view">
+                                                <a href=" " title="Quick view"  data-toggle="modal" data-target="#quickview">
                                                 <i class="fas fa-eye"></i>
                                                 </a>
                                             </div>
@@ -339,10 +339,10 @@
                                                 <h2>Wonder Hair Oil</h2>
                                             </div>
                                             <div class="Cart-sec-hover">
-                                                <a href=" " title="Add to cart">
+                                                <a href=" cart.php" title="Add to cart">
                                                 <i class="fas fa-cart-plus"></i>
                                                 </a>      
-                                                <a href=" "  title="Add to wishlist">
+                                                <a href=" cart.php"  title="Add to wishlist">
                                                 <i class="far fa-heart" style="color: #222"></i>
                                                 </a>
                                                 <a href=" " title="Quick view">
@@ -362,10 +362,10 @@
                                                 <h2>Wonder Hair Oil</h2>
                                             </div>
                                             <div class="Cart-sec-hover">
-                                                <a href=" " title="Add to cart">
+                                                <a href=" cart.php" title="Add to cart">
                                                 <i class="fas fa-cart-plus"></i>
                                                 </a>      
-                                                <a href=" "  title="Add to wishlist">
+                                                <a href="cart.php "  title="Add to wishlist">
                                                 <i class="far fa-heart" style="color: #222"></i>
                                                 </a>
                                                 <a href=" " title="Quick view">
@@ -385,10 +385,10 @@
                                                 <h2>Wonder Hair Oil</h2>
                                             </div>
                                             <div class="Cart-sec-hover">
-                                                <a href=" " title="Add to cart">
+                                                <a href=" cart.php" title="Add to cart">
                                                 <i class="fas fa-cart-plus"></i>
                                                 </a>      
-                                                <a href=" "  title="Add to wishlist">
+                                                <a href="cart.php "  title="Add to wishlist">
                                                 <i class="far fa-heart" style="color: #222"></i>
                                                 </a>
                                                 <a href=" " title="Quick view">
@@ -414,10 +414,10 @@
                                                 <h2>Wonder Hair Oil</h2>
                                             </div>
                                             <div class="Cart-sec-hover">
-                                                <a href=" " title="Add to cart">
+                                                <a href=" cart.php" title="Add to cart">
                                                 <i class="fas fa-cart-plus"></i>
                                                 </a>      
-                                                <a href=" "  title="Add to wishlist">
+                                                <a href=" cart.php"  title="Add to wishlist">
                                                 <i class="far fa-heart" style="color: #222"></i>
                                                 </a>
                                                 <a href=" " title="Quick view">
@@ -437,10 +437,10 @@
                                                 <h2>Wonder Hair Oil</h2>
                                             </div>
                                             <div class="Cart-sec-hover">
-                                                <a href=" " title="Add to cart">
+                                                <a href="cart.php " title="Add to cart">
                                                 <i class="fas fa-cart-plus"></i>
                                                 </a>      
-                                                <a href=" "  title="Add to wishlist">
+                                                <a href="cart.php "  title="Add to wishlist">
                                                 <i class="far fa-heart" style="color: #222"></i>
                                                 </a>
                                                 <a href=" " title="Quick view">
@@ -460,10 +460,10 @@
                                                 <h2>Wonder Hair Oil</h2>
                                             </div>
                                             <div class="Cart-sec-hover">
-                                                <a href=" " title="Add to cart">
+                                                <a href=" cart.php" title="Add to cart">
                                                 <i class="fas fa-cart-plus"></i>
                                                 </a>      
-                                                <a href=" "  title="Add to wishlist">
+                                                <a href=" cart.php"  title="Add to wishlist">
                                                 <i class="far fa-heart" style="color: #222"></i>
                                                 </a>
                                                 <a href=" " title="Quick view">
@@ -483,10 +483,10 @@
                                                 <h2>Wonder Hair Oil</h2>
                                             </div>
                                             <div class="Cart-sec-hover">
-                                                <a href=" " title="Add to cart">
+                                                <a href=" cart.php" title="Add to cart">
                                                 <i class="fas fa-cart-plus"></i>
                                                 </a>      
-                                                <a href=" "  title="Add to wishlist">
+                                                <a href=" cart.php"  title="Add to wishlist">
                                                 <i class="far fa-heart" style="color: #222"></i>
                                                 </a>
                                                 <a href=" " title="Quick view">
@@ -506,10 +506,10 @@
                                                 <h2>Wonder Hair Oil</h2>
                                             </div>
                                             <div class="Cart-sec-hover">
-                                                <a href=" " title="Add to cart">
+                                                <a href=" cart.php" title="Add to cart">
                                                 <i class="fas fa-cart-plus"></i>
                                                 </a>      
-                                                <a href=" "  title="Add to wishlist">
+                                                <a href="cart.php "  title="Add to wishlist">
                                                 <i class="far fa-heart" style="color: #222"></i>
                                                 </a>
                                                 <a href=" " title="Quick view">

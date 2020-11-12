@@ -15,7 +15,6 @@
                      <div class="footer-widget">
                         <h3 class="title">Quick Link</h3>
                         <ul>
-                           <li><a href="#">About</a></li>
                            <li><a href="#">All Products</a></li>
                            <li><a href="#">Shipping policy</a></li>
                            <li><a href="#">Contact</a></li>
@@ -34,15 +33,13 @@
                      </div>
                   </div>
                   <div class="col-md-3 mb-40">
-                     <div class="footer-widget">
+                     <div class="footer-widget socio">
                         <h3 class="title">Follow us</h3>
-                        <ul>
-                           <li><a href="#">Facebook</a></li>
-                           <li><a href="#">Twitter</a></li>
-                           <li><a href="#">Instagram</a></li>
-                           <li><a href="#">Linkedin</a></li>
-                           <li><a href="#">Google Plus</a></li>
-                           <li><a href="#">Youtube</a></li>
+                        <ul style="display: flex;">
+                           <li><a href="#"><img src="images/facebook.png"></a></li>
+                           <li><a href="#"><img src="images/insta.png"></a></li>
+                           <li><a href="#"><img src="images/twitter.png"></a></li>
+                           <li><a href="#"><img src="images/YT.png"></a></li>
                         </ul>
                      </div>
                   </div>

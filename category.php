@@ -5,8 +5,7 @@
       <?php include 'header.php';?>
       <main>
         <section style="padding-top: 113px">
-          <div class="inner-banner" style="background: url(images/inner-banner.svg);    background-size: cover;
-    background-position: left;">
+          <div class="inner-banner" style="background: url(images/wellness.jpg);    background-size: cover;background-position: left;">
             <!--  <img src="images/inner-banner.svg" alt=""> -->
               <h1><?php echo $header_name;?></h1>
           </div>
@@ -166,7 +165,7 @@
             </div> -->
                   <!--  -->
                </div>
-               <div class="col-lg-9 col-md-8" style="z-index: -1">
+               <div class="col-lg-9 col-md-8">
                   <div class="product-listing"  data-aos="fade-up"  data-aos-duration="1000">
                      <div class="products">
                         <div class="img-sec zoomWrapper">
@@ -178,10 +177,10 @@
                            <p class="rates">₹200</p>
                            <div class="row buy-products-btn product-description" style="flex-wrap:  nowrap;  ">
                               <div class="">
-                                 <a href="" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
+                                 <a href="cart.php" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
                               </div>
                               <div class="">
-                                 <a href="product_description.html" class="btn_ btn">Buy it </a>
+                                 <a href="checkout.php" class="btn_ btn">Buy Now </a>
                               </div>
                               <div class="">
                                  <a href="" class="btn_ btn"><i class="far fa-heart"></i>Add to Wishlist</a>
@@ -199,10 +198,10 @@
                            <p class="rates">₹200</p>
                            <div class="row buy-products-btn product-description" style="flex-wrap:  nowrap;  ">
                               <div class="">
-                                 <a href="" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
+                                 <a href="cart.php" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
                               </div>
                               <div class="">
-                                <a href="product_description.html" class="btn_ btn">Buy it </a>
+                                <a href="checkout.php" class="btn_ btn">Buy Now </a>
                               </div>
                               <div class="">
                                  <a href="" class="btn_ btn"><i class="far fa-heart"></i>Add to Wishlist</a>
@@ -220,10 +219,10 @@
                            <p class="rates">₹200</p>
                            <div class="row buy-products-btn product-description" style="flex-wrap:  nowrap;  ">
                               <div class="">
-                                 <a href="" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
+                                 <a href="cart.php" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
                               </div>
                               <div class="">
-                                 <a href="product_description.html" class="btn_ btn">Buy it </a>
+                                 <a href="checkout.php" class="btn_ btn">Buy Now</a>
                               </div>
                               <div class="">
                                  <a href="" class="btn_ btn"><i class="far fa-heart"></i>Add to Wishlist</a>

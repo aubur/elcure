@@ -88,41 +88,43 @@
                         <div class="collapse navbar-collapse desktop-nav" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link active" href="welness.php">Wellness</a>
+                                    <a class="nav-link active" href="welness.php">Wellness <i class="fas fa-angle-down"></i></a>
                                     <div class="dropdown-content">
-                                        <a href="#">Essential Oil</a>
+                                        <a href="#">tea tree essential oil</a>
+                                        <a href="#">lemongrass essential oil</a>
+                                        <a href="#">rosemary  essential oil</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="beauty.php">Beauty</a>
+                                    <a class="nav-link" href="beauty.php">Beauty <i class="fas fa-angle-down"></i></a>
                                     <div class="dropdown-content">
-                                        <a href="#">Serums</a>
+                                        <a href="#">lip & under eye serum</a>
+                                        <a href="#">Nail  serum</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="facecare.php"> Facecare </a>
+                                    <a class="nav-link" href="facecare.php"> Facecare <i class="fas fa-angle-down"></i></a>
                                      <div class="dropdown-content">
-                                        <a href="#">Day & Night</a>
-                                        <a href="#">Face cream</a>
-                                        <a href="#">Face serum</a>
+                                        <a href="#">Day & Night  face cream</a>
+                                        <a href="#">face serum</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="skincare.php">Skincare </a> 
+                                    <a class="nav-link" href="skincare.php">Skincare <i class="fas fa-angle-down"></i></a> 
                                     <div class="dropdown-content">
                                         <a href="#">Hand & body lotion</a>
-                                        <a href="#">Hand & foot cream</a>
+                                        <a href="#">face serum</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="haircare.php">Haircare </a>
+                                    <a class="nav-link" href="haircare.php">Haircare <i class="fas fa-angle-down"></i></a>
                                      <div class="dropdown-content">
-                                        <a href="#">Hair Oil</a>
-                                        <a href="#">Conditioning Shampoo</a>
+                                        <a href="#">Hair oil</a>
+                                        <a href="#">Conditioning shampoo </a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="hygiene.php">Hygiene  </a>
+                                    <a class="nav-link" href="hygiene.php">Hygiene <i class="fas fa-angle-down"></i></a>
                                      <div class="dropdown-content">
                                         <a href="#">Body & hand wash</a>
                                     </div>
@@ -149,7 +151,7 @@
                                 </div>
                               </div>
                             </div>
-                            <a href="" class="cart">
+                            <a href="cart.php" class="cart">
                                 <i class="fas fa-cart-plus"></i>
                                 <div class="qty">
                                     9
