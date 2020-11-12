@@ -14,7 +14,7 @@
          <div class="container-fluid products-listin-sec product-category pt-4" >
             <div class="header-sec">
                <div class="">
-                  <h2>Wellness</h2>
+                  <h2><?php echo $header_name;?></h2>
                </div>
                <div class="    ">
                   <select style=" font-size: 13px" class="form-control">
@@ -140,7 +140,7 @@
                      </form>
                   </div>
                   <!--  -->
-                  <button class="triggerSidebar">hum</button>
+                 <!--  <button class="triggerSidebar">hum</button>
             <div class="Sidenavbar2">
                 <div class="header">
                     <a href="">Menu</a>
@@ -163,7 +163,7 @@
                     <li><a href="" class="no-bold">order</a></li>
                     <li><a href="" class="no-bold">contact us</a></li>
                 </ul>
-            </div>
+            </div> -->
                   <!--  -->
                </div>
                <div class="col-lg-9 col-md-8" style="z-index: -1">

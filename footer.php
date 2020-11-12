@@ -4,7 +4,7 @@
                <div class="footer-widget-wrap row" style="justify-content: center;">
                   <div class="col-md-3 mb-40">
                      <div class="footer-widget">
-                        <img src="images/logo.png" alt="">
+                       <h3 class="title">About</h3>
                         <p>We provide the best  oil all over the world. We are the worldd best store for  Oil. You can buy our</p>
                         <p>228, East Zone, Momeno Tower, South City, India</p>
                         <p>+12546 687 987&nbsp; / +15425 987 541</p>

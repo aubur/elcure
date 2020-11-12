@@ -12,11 +12,19 @@
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+<<<<<<< HEAD
+=======
+                                <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+>>>>>>> be5171e9d93929f0107fa381ede0fc51900a5997
                             </ol>
                             <div class="carousel-inner">
-                                <div class="carousel-item active carosuel_1">
+                                <div class="carousel-item active carosuel_1" style="height:50% !important">
                                     <div  class="row align-items-center m-0 ">
+<<<<<<< HEAD
                                         <div class="col-md-7 col-6 d-n" style="height: 80vh">
+=======
+                                        <div class="col-md-7 col-6 d-n" style="height: 75vh">
+>>>>>>> be5171e9d93929f0107fa381ede0fc51900a5997
                                         </div>
                                         <div class="col-md-5 col-12">
                                             <div class="hero-content  text-center ">
@@ -28,6 +36,8 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item  carosuel_2">
+                                    <div class="col-md-7 col-6 d-n" style="height: 75vh">
+                                    </div>
                                     <div  class="row align-items-center m-0">
                                         <div class="col-md-5 col-12">
                                             <div class="hero-content  text-center ">
@@ -702,6 +712,7 @@
                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
                                        </p>
+                                       <a href="blog-details.php" class="btn">Read More</a>
                                     </div>
                                  </div>
                               </div>
@@ -718,12 +729,13 @@
                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
                                        </p>
+                                       <a href="blog-details.php" class="btn">Read More</a>
                                     </div>
                                  </div>
                               </div>
                            </div>
                            <div class=" my-4 text-center">
-                                 <button class="btn " tabindex="0">View More</button>
+                                 <a href="blog.php" class="btn" tabindex="0">View More</a>
                             </div>
                         </div>
                      </div>
@@ -907,11 +919,6 @@
         </main>
 
         <?php include 'footer.php';?>
-        <script src="js/jquery-3.4.1.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/aos.js"></script>
-        <script src="js/index.js"></script>
+        
     </body>
 </html>

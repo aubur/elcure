@@ -27,7 +27,7 @@
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
                               </p>
-                              <a href="" class="btn">Read More</a>
+                              <a href="blog-details.php" class="btn">Read More</a>
                            </div>
                         </div>
                      </div>
@@ -44,7 +44,7 @@
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
                               </p>
-                              <a href="" class="btn">Read More</a>
+                              <a href="blog-details.php" class="btn">Read More</a>
                            </div>
                         </div>
                      </div>
@@ -61,7 +61,7 @@
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
                               </p>
-                              <a href="" class="btn">Read More</a>
+                              <a href="blog-details.php" class="btn">Read More</a>
                            </div>
                         </div>
                      </div>
@@ -78,7 +78,7 @@
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
                               </p>
-                              <a href="" class="btn">Read More</a>
+                              <a href="blog-details.php" class="btn">Read More</a>
                            </div>
                         </div>
                      </div>
@@ -95,7 +95,7 @@
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
                               </p>
-                              <a href="" class="btn">Read More</a>
+                              <a href="blog-details.php" class="btn">Read More</a>
                            </div>
                         </div>
                      </div>
