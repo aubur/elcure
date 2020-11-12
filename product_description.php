@@ -4,7 +4,7 @@
    <body>  
       <?php include 'header.php';?>
       <main class="back-attach">
-         <div class="product-description pb-5">
+         <div class="product-description pb-5 banner-top-fix">
          <div class="container">
             <section>
                <div class="heading__">
@@ -23,7 +23,7 @@
                            <div class="">
                               <img src="images/handwash.jpeg" class="product-img">
                            </div>
-                            <div class="   ">
+                            <div class="">
                               <video src="images/video.mp4" style="width: 100%;" controls="" poster="images/slider-1.jpg" class="product-img"></video>
                            </div>
                         </div>
@@ -58,10 +58,10 @@
                                  quis nostrud exercitation ullamco laboris nisiatat navigation
                               </p>
                               <div class="row Quantity m-0" style="align-items: center;">
-                                 <div class="col-3 pl-0">
+                                 <div class="col-5 pl-0">
                                     <p class="qt">Quantity:</p>
                                  </div>
-                                 <div class="col-9">
+                                 <div class="col-7">
                                     <div class="form-group">
                                        <select class="form-control">
                                           <option>1</option>
@@ -74,37 +74,37 @@
                                  </div>
                               </div>
                               <div class="row Quantity m-0" style="align-items: center;">
-                                 <div class="col-3 pl-0">
+                                 <div class="col-5 pl-0">
                                     <p class="qt">Sub-Total:</p>
                                  </div>
-                                 <div class="col-9">
+                                 <div class="col-7">
                                     <p class="price">&#x20B9;200</p>
                                  </div>
                               </div>
                               <div class="row Quantity m-0" style="align-items: center;">
-                                 <div class="col-3 pl-0">
+                                 <div class="col-5 pl-0">
                                     <p class="qt">Availablity:</p>
                                  </div>
-                                 <div class="col-9">
+                                 <div class="col-7">
                                     <p class="">10 in Stokes</p>
                                  </div>
                               </div>
                               <div class="row Quantity m-0" style="align-items: center;">
-                                 <div class="col-3 pl-0">
+                                 <div class="col-5 pl-0">
                                     <p class="qt">Pincode:</p>
                                  </div>
-                                 <div class="col-9">
+                                 <div class="col-7">
                                     <input type="  " name="" placeholder=" Enter your pincode" class="form-control w-50">
                                  </div>
                               </div>
-                              <div class="rows buy-products-btn" style="flex-wrap:  nowrap;  ">
-                                 <div class="">
+                              <div class="rows buy-products-btn" style="flex-wrap:wrap;">
+                                 <div class="bt">
                                     <a href="cart.php" class="  btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
                                  </div>
-                                 <div class="">
+                                 <div class="bt">
                                     <a href="checkout.php"  class="  btn_ btn">Buy Now</a>
                                  </div>
-                                 <div class="">
+                                 <div class="bt">
                                     <a href=""  class="  btn_ btn"><i class="far fa-heart" ></i>Add to Wishlist</a>
                                  </div>
                               </div>
@@ -205,7 +205,7 @@
                                   <button class="  btn btn_s">Buy Now</button>
                            </div>
                             <div class="Cart-sec-hover">
-                                <a href=" " title="Add to cart">
+                                <a href="cart.php" title="Add to cart">
                                 <i class="fas fa-cart-plus"></i>
                                 </a>      
                                 <a href=" "  title="Add to wishlist">
@@ -231,7 +231,7 @@
                                   <button class="  btn btn_s">Buy Now</button>
                            </div>
                             <div class="Cart-sec-hover">
-                                <a href=" " title="Add to cart">
+                                <a href=" cart.php" title="Add to cart">
                                 <i class="fas fa-cart-plus"></i>
                                 </a>      
                                 <a href=" "  title="Add to wishlist">
@@ -257,7 +257,7 @@
                                   <button class="  btn btn_s">Buy Now</button>
                            </div>
                             <div class="Cart-sec-hover">
-                                <a href=" " title="Add to cart">
+                                <a href=" cart.php" title="Add to cart">
                                 <i class="fas fa-cart-plus"></i>
                                 </a>      
                                 <a href=" "  title="Add to wishlist">
@@ -283,7 +283,7 @@
                                   <button class="  btn btn_s">Buy Now</button>
                            </div>
                             <div class="Cart-sec-hover">
-                                <a href=" " title="Add to cart">
+                                <a href=" cart.php" title="Add to cart">
                                 <i class="fas fa-cart-plus"></i>
                                 </a>      
                                 <a href=" "  title="Add to wishlist">
@@ -309,7 +309,7 @@
                                   <button class="  btn btn_s">Buy Now</button>
                            </div>
                             <div class="Cart-sec-hover">
-                                <a href=" " title="Add to cart">
+                                <a href=" cart.php" title="Add to cart">
                                 <i class="fas fa-cart-plus"></i>
                                 </a>      
                                 <a href=" "  title="Add to wishlist">

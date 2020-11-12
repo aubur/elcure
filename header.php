@@ -179,7 +179,7 @@
                         <button class="navbar-toggler triggerSidebar2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon humberger"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="index.php">
                             <img src="images/logo.png" alt="">
                         </a>
                     </div>
@@ -187,7 +187,7 @@
                     <div class="hum-sec">
                         <a href="   "><img src="images/search.svg"></a>
                     </div>
-                    <a href="" class="cart">
+                    <a href="cart.php" class="cart">
                                 <i class="fas fa-cart-plus"></i>
                                 <div class="qty">
                                     9
@@ -203,11 +203,17 @@
             </div>
             </div>
             <div class="Sidenavbar">
+              <div class="profile-head">
                 <div class="header">
                     <a href="">Menu</a>
                     <a class="hideSidebar2 label label-default"> <i class="fa fa-times-circle"></i>
                     Close</a>
                 </div>
+                <div class="d-flex align-items-center p-1">
+                  <img src="images/profile.svg">
+                  <p class="m-0 pl-2 text-white">Profile</p>
+                </div>
+              </div>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Wellness</a></li>

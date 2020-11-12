@@ -98,7 +98,7 @@
                                  <a href="cart.php" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
                               </div>
                               <div class="bt">
-                                 <a href="product_description.html" class="btn_ btn">Buy it </a>
+                                 <a href="product_description.php" class="btn_ btn">Buy it </a>
                               </div>
                               <div class="bt">
                                  <a href="" class="btn_ btn"><i class="far fa-heart"></i>Add to Wishlist</a>
@@ -119,7 +119,7 @@
                                  <a href="cart.php" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
                               </div>
                               <div class="bt">
-                                <a href="product_description.html" class="btn_ btn">Buy it </a>
+                                <a href="product_description.php" class="btn_ btn">Buy it </a>
                               </div>
                               <div class="bt">
                                  <a href="" class="btn_ btn"><i class="far fa-heart"></i>Add to Wishlist</a>
@@ -140,7 +140,7 @@
                                  <a href="cart.php" class=" btn_ btn"><i class="fas fa-cart-plus"></i>Add to Cart</a>
                               </div>
                               <div class="bt">
-                                 <a href="product_description.html" class="btn_ btn">Buy it </a>
+                                 <a href="product_description.php" class="btn_ btn">Buy it </a>
                               </div>
                               <div class="bt">
                                  <a href="" class="btn_ btn"><i class="far fa-heart"></i>Add to Wishlist</a>
@@ -152,7 +152,7 @@
                </div>
             </div>
          </div>
-         
+
          <?php include 'footer-sec.php';?>
       </main>
      <?php include 'footer.php';?>

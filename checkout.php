@@ -51,7 +51,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="d-flex" style="align-items:center;justify-content: space-between;">
+                      <div class="Checkout-proceed-sec">
                         <a class="btn" id="Proceed1">Procced</a>
                         <a href="">Already have an account ?</a>
                       </div>
@@ -99,7 +99,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="d-flex" style="align-items:center;justify-content: space-between;">
+                      <div class="Checkout-proceed-sec">
                         <a class="btn" id="Proceed2">Procced</a>
                        
                       </div>
@@ -179,7 +179,7 @@
                                 </div>
                             </div>
                         </div>
-                      <div class="d-flex" style="align-items:center;justify-content: space-between;">
+                      <div class="Checkout-proceed-sec">
                         <a class="btn">Procced</a>
                       </div>
                     </div>

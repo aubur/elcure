@@ -1,3 +1,15 @@
+@media screen and (max-width: 1336px){
+header .navbar-light .navbar-nav .nav-link{
+	font-size: 13px;
+	padding: 28px 5px;
+}
+}
+@media screen and (max-width:1113px){
+header .navbar-light .navbar-nav .nav-link{
+	font-size: 11px;
+	padding: 28px 7px;
+}
+}
 @media screen and (max-width: 1200px) {
 	.buy {
 		font-size: 14px;
@@ -75,10 +87,11 @@
 		margin: 0 auto 1rem;
 	}
 	.products-listin-sec .products-details {
-		padding: unset;
+		/*padding: unset;*/
 	}
 	.products-listin-sec .product-description {
 		justify-content: center;
+		margin: 0;
 	}
 	.products-listin-sec .product-description {
 		padding-top: 1rem;
@@ -139,6 +152,14 @@
 	}
 }
 @media screen and (max-width: 767px) {
+
+	.Checkout .pd{
+		display: block;
+	}
+	.Checkout .pd .pd-l, .Checkout .pd .pd-l{
+		width: 100%;
+		margin: 1rem 0;
+	}
 	.desktop-side-menu {
 		display: none;
 	}
@@ -159,6 +180,25 @@
 	}
 }
 @media screen and (max-width: 480px) {
+	.Checkout-proceed-sec{
+		display: block;
+	}
+	.Checkout-proceed-sec a{
+		display: block;
+	}
+	.blog-inner .blog-inner-sec img{
+		height: 250px;
+		object-fit: cover;
+	}
+	.blog-inner .blog-author-details{
+		flex-wrap: wrap;
+	}
+	.blog-inner .blog-author-details p{
+		margin: .4rem 0;
+	}
+	.footer-top-section h3{
+		font-size: 19px;
+	}
 	.Products-sec {
 		width: unset;
 	}
@@ -329,16 +369,26 @@
 	.products-listin-sec .img-sec {
 		width: 100%;
 	}
-	.products-listin-sec .bt {
+	 .bt {
 		width: 100%;
 	}
-	.products-listin-sec .bt .btn {
+	.bt .btn {
 		width: 100%;
 		margin: .4rem 0;
 		display: inline-block;
 	}
 	.products-listin-sec .product-description {
 		flex-wrap: wrap !important;
+	}
+	.product-description .Product-sec .product-content .product-details .form-control{
+		width: 100% !important;
+	}
+	.product-details p, .review-sec p{
+		font-size: 14px;
+		text-align: justify;
+	}
+	.review-details p{
+		font-size: 13px;
 	}
 	.inner-banner h1 {
 		text-align: center;
@@ -355,5 +405,8 @@
 	}
 	.inner-banner{
 		height: 140px;
+	}
+	.product-description .Product-sec .product-content .product-details .rows{
+		flex-wrap: wrap !important;
 	}
 }

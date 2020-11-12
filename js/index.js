@@ -315,11 +315,13 @@
           slidesToShow: 1,
           slidesToScroll: 1,
           arrows: false,
+          dots:false,
           fade: true,
           asNavFor: '.product-carosuel'
          });
          $('.product-carosuel').slick({
           slidesToShow: 3,
+          arrows:false,
           slidesToScroll: 1,
           asNavFor: '.product-single',
           dots: true,

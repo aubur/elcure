@@ -215,17 +215,15 @@ header .mobile-nav-bar{
     display:   none;    
 }
 header .Sidenavbar .header {
-    padding: 4% 2%;
     display: flex;
     display: -ms-flexbox;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #eee;
 }
 
 header .Sidenavbar .header a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 header .Sidenavbar ul {
@@ -482,6 +480,8 @@ main .carousel .carosuel-captions .buy-btn:hover,
     align-items: center;
     color: #000;
     justify-content: center;
+
+    font-family: 'Poppins', sans-serif;
 }
 
 .Products-sec .Products-sec-content .price p {
@@ -802,7 +802,7 @@ footer .copy p {
 }
 
 .product-description {
-    padding-top: 8rem;
+   /* padding-top: 8rem;*/
 }
 .product-description .btn{
 	background: 	#fff;
@@ -1989,6 +1989,11 @@ margin: 	.3rem;
 .products-details{
     padding-left:   1.3rem;
 }
+.Checkout-proceed-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .products-listin-sec .rates{
     color:  #000;
     font-weight:    normal  ;   
@@ -2490,7 +2495,11 @@ header .mobile-nav-bar .r-sec{
     margin-right:    .3rem;
  }
  header .Sidenavbar .header{
-    background:     #eee;
+  
+ }
+ header .Sidenavbar .profile-head{
+    background: #495E3D;
+    padding: 1rem;
  }
   header .Sidenavbar .btop{
     border-top:     1px solid #eee;
