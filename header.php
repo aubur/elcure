@@ -140,15 +140,15 @@
                         </div>
                         <div class="cart-section desktop-nav">
                             <div class="dropdown">
-  <button  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: transparent;border: none;overflow: hidden;">
-    <img src="images/search.svg">
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <div class="form-group">
-        <input type="search" name="" class="form-control" placeholder="Search...">
-    </div>
-  </div>
-</div>
+                              <button  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: transparent;border: none;overflow: hidden;">
+                                <img src="images/search.svg">
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <div class="form-group">
+                                    <input type="search" name="" class="form-control" placeholder="Search...">
+                                </div>
+                              </div>
+                            </div>
                             <a href="" class="cart">
                                 <i class="fas fa-cart-plus"></i>
                                 <div class="qty">
