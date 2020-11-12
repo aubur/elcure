@@ -228,6 +228,7 @@
           </form>
           </div>
         </section>
+         <?php include 'footer-sec.php';?>
       </main>
 
       <?php include 'footer.php';?>

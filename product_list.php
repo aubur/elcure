@@ -152,6 +152,8 @@
                </div>
             </div>
          </div>
+         
+         <?php include 'footer-sec.php';?>
       </main>
      <?php include 'footer.php';?>
       
