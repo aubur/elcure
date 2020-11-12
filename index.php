@@ -12,19 +12,14 @@
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-<<<<<<< HEAD
-=======
+
                                 <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
->>>>>>> be5171e9d93929f0107fa381ede0fc51900a5997
+
                             </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active carosuel_1" style="height:50% !important">
-                                    <div  class="row align-items-center m-0 ">
-<<<<<<< HEAD
-                                        <div class="col-md-7 col-6 d-n" style="height: 80vh">
-=======
-                                        <div class="col-md-7 col-6 d-n" style="height: 75vh">
->>>>>>> be5171e9d93929f0107fa381ede0fc51900a5997
+                          <div class="carousel-inner">
+                                <div class="carousel-item carosuel_1 active" style="background-image: url(images/slider-1.jpg);">
+                                    <div class="row align-items-center m-0 ">
+                                        <div class="col-md-7 col-6 d-n" style="height: 100vh">
                                         </div>
                                         <div class="col-md-5 col-12">
                                             <div class="hero-content  text-center ">
@@ -35,10 +30,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item  carosuel_2">
-                                    <div class="col-md-7 col-6 d-n" style="height: 75vh">
-                                    </div>
-                                    <div  class="row align-items-center m-0">
+                                <div class="carousel-item carosuel_2" style="background-image: url(images/slider-2.png);">
+                                    <div class="row align-items-center m-0">
                                         <div class="col-md-5 col-12">
                                             <div class="hero-content  text-center ">
                                                 <h2 class="animate__animated animate__fadeInRight animate__delay-1s">HAIR OIL</h2>
@@ -46,7 +39,7 @@
                                                 <a class="btn btn-round btn-lg btn-theme btn_ animate__animated animate__fadeInLeft animate__delay-3s" href="" tabindex="0">SHOP NOW</a>
                                             </div>
                                         </div>
-                                        <div class="col-md-7 col-12 d-n">
+                                        <div class="col-md-7 col-12 d-n" style="height: 100vh">
                                             <div class="hero-image hero-image-0  ">
                                                 <img class="lazyload" data-src="" alt="">
                                             </div>

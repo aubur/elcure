@@ -17,6 +17,33 @@ header {
     width: 100%;
 }
 
+header .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+header .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0B4328;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+header .dropdown-content a {
+  color: #F85C05;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+header .dropdown-content a:hover {background-color: #ddd;}
+
+header .dropdown:hover .dropdown-content {display: block;}
+
+header .dropdown:hover .dropbtn {background-color: #3e8e41;}
 .overlay2 {
     display: none;
     opacity: .8;
@@ -103,8 +130,12 @@ header .navbar-light .navbar-nav .nav-link {
     font-weight: 500;
     text-transform: uppercase;
     font-size: 14px;
+    padding: 25px 15px;
 }
-
+header .navbar-expand-lg{
+    padding-top: 0;
+    padding-bottom: 0;
+}
 header .Sidenavbar::-webkit-scrollbar,
 .product-hv::-webkit-scrollbar {
     width: 0px;
@@ -270,8 +301,8 @@ main .carousel .carosuel-captions h1 {
 }*/
 
 main .carosuel_1 {
-    background-image: url(../images/slider-1.jpg);
-    height: 100vh;
+ /*   background-image: url(../images/slider-1.jpg);*/
+    height: 86vh;
     width: 100%;
     background-size: cover;
     position: relative;
@@ -287,7 +318,7 @@ main .carousel-inner {
 
 main .carosuel_2 {
     background-image: url(../images/slider-2.png);
-    height: 100vh;
+    height: 86vh;
     width: 100%;
     background-size: cover;
     position: relative;
@@ -660,6 +691,7 @@ main .carousel .carosuel-captions .buy-btn:hover,
 .blog .btn {
     /*text-align: right;
 	width: 100%;*/
+    color: #fff;
 }
 
 .blog .btn a {

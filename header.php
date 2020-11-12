@@ -1,4 +1,70 @@
+<style type="text/css">
+    /* The overlay effect with black background */
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); /* Black with a little bit see-through */
+}
 
+/* The content */
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+/* Close button */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+/* Style the search field */
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #bbb;
+}
+</style>
 <header>
             <div class="bb uh">
                 <div class="marquee" style="    padding: 10px 0 0;
@@ -21,26 +87,48 @@
                         </button>
                         <div class="collapse navbar-collapse desktop-nav" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto">
-                                <li class="nav-item ">
+                                <li class="nav-item dropdown">
                                     <a class="nav-link active" href="welness.php">Wellness</a>
+                                    <div class="dropdown-content">
+                                        <a href="#">Essential Oil</a>
+                                    </div>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item dropdown">
                                     <a class="nav-link" href="beauty.php">Beauty</a>
+                                    <div class="dropdown-content">
+                                        <a href="#">Serums</a>
+                                    </div>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item dropdown">
                                     <a class="nav-link" href="facecare.php"> Facecare </a>
+                                     <div class="dropdown-content">
+                                        <a href="#">Day & Night</a>
+                                        <a href="#">Face cream</a>
+                                        <a href="#">Face serum</a>
+                                    </div>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="skincare.php">Skincare </a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="skincare.php">Skincare </a> 
+                                    <div class="dropdown-content">
+                                        <a href="#">Hand & body lotion</a>
+                                        <a href="#">Hand & foot cream</a>
+                                    </div>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item dropdown">
                                     <a class="nav-link" href="haircare.php">Haircare </a>
+                                     <div class="dropdown-content">
+                                        <a href="#">Hair Oil</a>
+                                        <a href="#">Conditioning Shampoo</a>
+                                    </div>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item dropdown">
                                     <a class="nav-link" href="hygiene.php">Hygiene  </a>
+                                     <div class="dropdown-content">
+                                        <a href="#">Body & hand wash</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="product_list.php">Products  </a>
+                                    <a class="nav-link" href="product_list.php">Products</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="ingredients.php">Ingredients </a>
@@ -51,9 +139,16 @@
                             </ul>
                         </div>
                         <div class="cart-section desktop-nav">
-                            <form action="" role="search" class="search-form">    
-                                <input type="search" name="q" class="search-text" placeholder="Search..." autocomplete="off">
-                            </form>
+                            <div class="dropdown">
+  <button  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: transparent;border: none;overflow: hidden;">
+    <img src="images/search.svg">
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <div class="form-group">
+        <input type="search" name="" class="form-control" placeholder="Search...">
+    </div>
+  </div>
+</div>
                             <a href="" class="cart">
                                 <i class="fas fa-cart-plus"></i>
                                 <div class="qty">
@@ -129,3 +224,14 @@
                 </ul>
             </div>
         </header>
+        <script type="text/javascript">
+            // Open the full screen search box
+function openSearch() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+// Close the full screen search box
+function closeSearch() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+        </script>
