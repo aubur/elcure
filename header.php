@@ -89,44 +89,76 @@
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link active" href="welness.php">Wellness <i class="fas fa-angle-down"></i></a>
-                                    <div class="dropdown-content">
-                                        <a href="#">tea tree essential oil</a>
-                                        <a href="#">lemongrass essential oil</a>
-                                        <a href="#">rosemary  essential oil</a>
+                                    <div class="dropdown-content back-attach">
+                                      <div class="row" style="justify-content: center;  " >
+                                        <div class="col-5">
+                                          <a href="#">tea tree essential oil</a>
+                                          <a href="#">lemongrass essential oil</a>
+                                          <a href="#">rosemary  essential oil</a>
+                                        </div>
+                                        <div class="col-5">
+                                        </div>
+                                      </div>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="beauty.php">Beauty <i class="fas fa-angle-down"></i></a>
-                                    <div class="dropdown-content">
-                                        <a href="#">lip & under eye serum</a>
-                                        <a href="#">Nail  serum</a>
+                                    <div class="dropdown-content back-attach">
+                                      <div class="row" style="justify-content: center;  " >
+                                        <div class="col-5">
+                                          <a href="#">lip & under eye serum</a>
+                                          <a href="#">Nail  serum</a>
+                                        </div>
+                                        <div class="col-5">
+                                        </div>
+                                      </div>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="facecare.php"> Facecare <i class="fas fa-angle-down"></i></a>
-                                     <div class="dropdown-content">
+                                     <div class="dropdown-content back-attach">
+                                      <div class="row" style="justify-content: center;  " >
+                                        <div class="col-5">
                                         <a href="#">Day & Night  face cream</a>
                                         <a href="#">face serum</a>
+                                      </div>
+                                      <div class="col-5">
+                                      </div>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="skincare.php">Skincare <i class="fas fa-angle-down"></i></a> 
-                                    <div class="dropdown-content">
+                                    <div class="dropdown-content back-attach">
+                                      <div class="row" style="justify-content: center;  " >
+                                        <div class="col-5">
                                         <a href="#">Hand & body lotion</a>
                                         <a href="#">face serum</a>
+                                      </div>
+                                      <div class="col-5">
+                                      </div>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="haircare.php">Haircare <i class="fas fa-angle-down"></i></a>
-                                     <div class="dropdown-content">
+                                     <div class="dropdown-content back-attach">
+                                      <div class="row" style="justify-content: center;  " >
+                                        <div class="col-5">
                                         <a href="#">Hair oil</a>
                                         <a href="#">Conditioning shampoo </a>
+                                      </div>
+                                      <div class="col-5">
+                                      </div>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="hygiene.php">Hygiene <i class="fas fa-angle-down"></i></a>
-                                     <div class="dropdown-content">
+                                     <div class="dropdown-content back-attach">
+                                      <div class="row" style="justify-content: center;  " >
+                                        <div class="col-5">
                                         <a href="#">Body & hand wash</a>
+                                      </div>
+                                      <div class="col-5  ">
+                                      </div>
                                     </div>
                                 </li>
                                 <li class="nav-item">
