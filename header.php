@@ -1,70 +1,4 @@
-<style type="text/css">
-    /* The overlay effect with black background */
-.overlay {
-  height: 100%;
-  width: 100%;
-  display: none;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9); /* Black with a little bit see-through */
-}
-
-/* The content */
-.overlay-content {
-  position: relative;
-  top: 46%;
-  width: 80%;
-  text-align: center;
-  margin-top: 30px;
-  margin: auto;
-}
-
-/* Close button */
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-  cursor: pointer;
-  color: white;
-}
-
-.overlay .closebtn:hover {
-  color: #ccc;
-}
-
-/* Style the search field */
-.overlay input[type=text] {
-  padding: 15px;
-  font-size: 17px;
-  border: none;
-  float: left;
-  width: 80%;
-  background: white;
-}
-
-.overlay input[type=text]:hover {
-  background: #f1f1f1;
-}
-
-/* Style the submit button */
-.overlay button {
-  float: left;
-  width: 20%;
-  padding: 15px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
-
-.overlay button:hover {
-  background: #bbb;
-}
-</style>
+<?php include 'head.php';?>
 <header>
             <div class="bb uh">
                 <div class="marquee" style="    padding: 10px 0 0;
@@ -91,12 +25,13 @@
                                     <a class="nav-link active" href="welness.php">Wellness <i class="fas fa-angle-down"></i></a>
                                     <div class="dropdown-content back-attach">
                                       <div class="row" style="justify-content: center;  " >
-                                        <div class="col-5">
+                                        <div class="col-8">
                                           <a href="#">tea tree essential oil</a>
                                           <a href="#">lemongrass essential oil</a>
                                           <a href="#">rosemary  essential oil</a>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-4">
+                                          <img src="images/handwash.jpeg" class="img-hover">
                                         </div>
                                       </div>
                                     </div>
@@ -105,11 +40,12 @@
                                     <a class="nav-link" href="beauty.php">Beauty <i class="fas fa-angle-down"></i></a>
                                     <div class="dropdown-content back-attach">
                                       <div class="row" style="justify-content: center;  " >
-                                        <div class="col-5">
+                                        <div class="col-8">
                                           <a href="#">lip & under eye serum</a>
                                           <a href="#">Nail  serum</a>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-4">
+                                          <img src="images/handwash.jpeg" class="img-hover">
                                         </div>
                                       </div>
                                     </div>
@@ -118,11 +54,12 @@
                                     <a class="nav-link" href="facecare.php"> Facecare <i class="fas fa-angle-down"></i></a>
                                      <div class="dropdown-content back-attach">
                                       <div class="row" style="justify-content: center;  " >
-                                        <div class="col-5">
+                                        <div class="col-8">
                                         <a href="#">Day & Night  face cream</a>
                                         <a href="#">face serum</a>
                                       </div>
-                                      <div class="col-5">
+                                      <div class="col-4">
+                                          <img src="images/handwash.jpeg" class="img-hover">
                                       </div>
                                     </div>
                                 </li>
@@ -130,11 +67,12 @@
                                     <a class="nav-link" href="skincare.php">Skincare <i class="fas fa-angle-down"></i></a> 
                                     <div class="dropdown-content back-attach">
                                       <div class="row" style="justify-content: center;  " >
-                                        <div class="col-5">
+                                        <div class="col-8">
                                         <a href="#">Hand & body lotion</a>
                                         <a href="#">face serum</a>
                                       </div>
-                                      <div class="col-5">
+                                      <div class="col-4">
+                                          <img src="images/handwash.jpeg" class="img-hover">
                                       </div>
                                     </div>
                                 </li>
@@ -142,11 +80,12 @@
                                     <a class="nav-link" href="haircare.php">Haircare <i class="fas fa-angle-down"></i></a>
                                      <div class="dropdown-content back-attach">
                                       <div class="row" style="justify-content: center;  " >
-                                        <div class="col-5">
+                                        <div class="col-8">
                                         <a href="#">Hair oil</a>
                                         <a href="#">Conditioning shampoo </a>
                                       </div>
-                                      <div class="col-5">
+                                      <div class="col-4">
+                                          <img src="images/handwash.jpeg" class="img-hover">
                                       </div>
                                     </div>
                                 </li>
@@ -154,10 +93,11 @@
                                     <a class="nav-link" href="hygiene.php">Hygiene <i class="fas fa-angle-down"></i></a>
                                      <div class="dropdown-content back-attach">
                                       <div class="row" style="justify-content: center;  " >
-                                        <div class="col-5">
+                                        <div class="col-8">
                                         <a href="#">Body & hand wash</a>
                                       </div>
-                                      <div class="col-5  ">
+                                      <div class="col-4">
+                                          <img src="images/handwash.jpeg" class="img-hover">
                                       </div>
                                     </div>
                                 </li>
@@ -177,7 +117,7 @@
                               <button  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: transparent;border: none;overflow: hidden;">
                                 <img src="images/search.svg">
                               </button>
-                              <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+                              <div class="dropdown-menu p-0 w-100" aria-labelledby="dropdownMenuButton">
                                 <div class="form-group p-0 m-0">
                                     <input type="search" name="" class="form-control" placeholder="Search...">
                                 </div>
@@ -216,9 +156,16 @@
                         </a>
                     </div>
                     <div class="r-sec">
-                    <div class="hum-sec">
-                        <a href="   "><img src="images/search.svg"></a>
-                    </div>
+                      <div class="dropdown">
+                              <button  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: transparent;border: none;overflow: hidden;">
+                                <img src="images/search.svg">
+                              </button>
+                              <div class="dropdown-menu p-0 w-100" aria-labelledby="dropdownMenuButton">
+                                <div class="form-group p-0 m-0">
+                                    <input type="search" name="" class="form-control" placeholder="Search...">
+                                </div>
+                              </div>
+                            </div>
                     <a href="cart.php" class="cart">
                                 <i class="fas fa-cart-plus"></i>
                                 <div class="qty">
@@ -246,25 +193,164 @@
                   <p class="m-0 pl-2 text-white">Profile</p>
                 </div>
               </div>
+              <div class="accordion" id="accordionExample">
+              <!--   <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Wellness
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="">tea tree essential oil</a></li>
+                            <li><a href="">lemongrass essential oil</a></li>
+                            <li><a href="">rosemary  essential oil</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div> -->
+                 <div class="card">
+                  <div class="card-header" id="headingone">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseone" aria-expanded="false" aria-controls="collapseone">
+                        Wellness
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseone" class="collapse" aria-labelledby="headingone" data-parent="#accordionExample">
+                    <div class="card-body">
+                       <ul>
+                            <li><a href="">tea tree essential oil</a></li>
+                            <li><a href="">lemongrass essential oil</a></li>
+                            <li><a href="">rosemary  essential oil</a></li> 
+                        </ul>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Beauty
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                       <ul>
+                            <li><a href="">lip & under eye serum</a></li>
+                            <li><a href="">Nail  serum</a></li>
+                        </ul>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Face care
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="">Day & Night  face cream</a></li>
+                            <li><a href="">face serum</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingfour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                        Skin care
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="">Hand & body lotion</a></li>
+                            <li><a href="">face serum</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingfive">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                        Haircare
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="">Hair oil</a></li>
+                            <li><a href="">Conditioning shampoo </a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingsix">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                        Hygiene
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="">Body & hand wash</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="card">
+                  <div class="card-header no-arrow" >
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" >
+                        Products
+                      </button>
+                    </h2>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header no-arrow" >
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" >
+                        ingredients
+                      </button>
+                    </h2>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header no-arrow" >
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" >
+                        About us
+                      </button>
+                    </h2>
+                  </div>
+                </div>
+              </div>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Wellness</a></li>
-                    <li><a href="">beauty</a></li>
-                    <li><a href="">facecare</a></li>
-                    <li><a href="">skincare</a></li>
-                    <li><a href="">haircare</a></li>
-                    <li><a href="">hygiene</a></li>
-                    <li><a href="">produts</a></li>
-                    <li><a href="">ingredients</a></li>
-                    <li><a href="">about us</a></li>
                     <li class="btop"></li>
                     <li><a href="" class="no-bold">Account</a></li>
                     <li><a href="" class="no-bold">order</a></li>
                     <li><a href="" class="no-bold">contact us</a></li>
                 </ul>
             </div>
-        </header>
-        <script type="text/javascript">
+</header>
+<script type="text/javascript">
             // Open the full screen search box
 function openSearch() {
   document.getElementById("myOverlay").style.display = "block";
@@ -274,4 +360,4 @@ function openSearch() {
 function closeSearch() {
   document.getElementById("myOverlay").style.display = "none";
 }
-        </script>
+</script>

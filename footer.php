@@ -46,6 +46,9 @@
                </div>
             </div>
   </div>
+  <div class="footer-copy">
+      <p class="m-0">© 2020 All rights reserved</p>
+  </div>
 </footer>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/popper.min.js"></script>

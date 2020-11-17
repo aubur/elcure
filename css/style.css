@@ -41,20 +41,25 @@ header .dropdown-content a {
 }
 
 header .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #f6f6f6;
     transition: all ease .3s;
 }
 header .dropdown:hover .fas{
     transform: rotate(180deg);
     transition: all ease .5s;
 }
+header .dropdown .dropdown-content{
+    padding: 2rem;
+}
+header .dropdown .dropdown-content img{
+    width: 100%;
+}
 header .dropdown:hover .dropdown-content {
     display: block;
-    width: 100%;
+    width: 80%;
     background-color: #fff;
-    left: 0;
+    left: 8%;
     margin: auto;
-    left: 0;
 }
 
 header .dropdown:hover .dropbtn {background-color: #3e8e41;}
@@ -320,7 +325,7 @@ main .carousel .carosuel-captions h1 {
 
 main .carosuel_1 {
  /*   background-image: url(../images/slider-1.jpg);*/
-    height: 86vh;
+    height: 82vh;
     width: 100%;
     background-size: cover;
     position: relative;
@@ -2502,7 +2507,7 @@ header .mobile-nav-bar .r-sec{
     margin-right:    .3rem;
  }
  header .Sidenavbar .header{
-  
+    margin-bottom: 10px;
  }
  header .Sidenavbar .profile-head{
     background: #495E3D;
@@ -2625,3 +2630,125 @@ header .mobile-nav-bar .r-sec{
     .banner-top-fix{
         padding-top: 113px;
     }
+        /* The overlay effect with black background */
+header  .overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); /* Black with a little bit see-through */
+}
+
+/* The content */
+header .overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+/* Close button */
+header  .overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+header  .overlay .closebtn:hover {
+  color: #ccc;
+}
+
+/* Style the search field */
+header  .overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+header  .overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+header  .overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+header .overlay button:hover {
+  background: #bbb;
+}
+footer
+.footer-copy{
+    background: #000;
+    color: #fff;
+    padding: .5rem;
+    text-align: center;
+    font-size: 13px;
+}
+header .Sidenavbar .accordion .btn{
+    border: unset;
+    background: unset;
+        width: 100%;
+    padding: .8rem;
+    color: #0B4328;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: left;
+    margin: 0;
+    border-radius: unset;
+    border: 
+}
+header .Sidenavbar 
+.accordion .card {
+    border: none;
+}
+header .Sidenavbar 
+.accordion > .card .card-header{
+    padding: 0;
+    background: #fff;
+}
+header .Sidenavbar 
+.accordion .card  ul li{
+    list-style-type: none;
+    display: block;
+    text-transform: capitalize;
+}
+header .Sidenavbar 
+.accordion .card  ul li a{
+    font-size: 14px;
+    padding:5px 0;
+}
+header .Sidenavbar 
+.accordion .card  .card-body{
+    padding: 10px 22px;
+}
+header .Sidenavbar 
+.accordion .card-header .collapsed:after {
+        font-family: 'Font Awesome\ 5 Free';
+    content: "\f107";
+    float: right;
+}
+header .Sidenavbar 
+.accordion .no-arrow .collapsed:after {
+    content: ' ';
+}

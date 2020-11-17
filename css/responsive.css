@@ -16,6 +16,15 @@ header .navbar-light .navbar-nav .nav-link{
 	}
 }
 @media screen and (max-width: 991px) {
+	main .carousel h1{
+		font-size: 40px;
+	}
+	main .carousel h2{
+		font-size: 23px;
+	}
+	main .carousel-inner {
+    	padding-top: 88px;
+	}
 	.banner-top-fix {
 		padding-top: 92px;
 	}
@@ -71,10 +80,10 @@ header .navbar-light .navbar-nav .nav-link{
 		width: 100%;
 	}
 	.Products-carosuel .prev-arrow {
-		right: 14%;
+		right: 53%;
 	}
 	.Products-carosuel .next-arrow {
-		right: 6%;
+		right: 47%;
 	}
 	.buy {
 		font-size: 16px;
