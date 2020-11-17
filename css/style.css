@@ -1301,10 +1301,13 @@ header .mobile-cart {
 
 .flip-card h2 {
     font-weight: 300;
-    font-size: 25px;
+    font-size: 22px;
     color: #fff;
 }
-
+.flip-card p{
+    font-size: 14px;
+    margin-top: 1.4rem;
+}
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
