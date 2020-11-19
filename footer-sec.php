@@ -5,28 +5,28 @@
                            <div class="icon" style="background-image: url(images/service-sprites8cf3.png);"></div>
                            <div class="content">
                               <h3>Free home delivery</h3>
-                              <p>Provide free home delivery for all product over $100</p>
+                              <p>For cart amount above 999</p>
                            </div>
                         </div>
                         <div class="service col-md-6 col-12">
                            <div class="icon" style="background-image: url(images/service-sprites8cf3.png);"></div>
                            <div class="content">
                               <h3>Quality Products</h3>
-                              <p>We ensure the product quality that is our main goal</p>
+                              <p>Customer value and satisfacton with adding value to products or quality…</p>
                            </div>
                         </div>
                         <div class="service  col-md-6 col-12">
                            <div class="icon" style="background-image: url(images/service-sprites8cf3.png);"></div>
                            <div class="content">
-                              <h3>3 Days Return</h3>
-                              <p>Return product within 3 days for any product you buy</p>
+                              <h3> Shop our product</h3>
+                              <p>We are promoting value based natural and affordable products</p>
                            </div>
                         </div>
                         <div class="service col-md-6 col-12">
                            <div class="icon" style="background-image: url( images/service-sprites8cf3.png);"></div>
                            <div class="content">
-                              <h3>Online Support</h3>
-                              <p>We ensure the product quality that you can trust easily</p>
+                              <h3>Care with Nature</h3>
+                              <p>Eliminate synthetc fragrance and live a radian life with Go Natural</p>
                            </div>
                         </div>
                      </div>

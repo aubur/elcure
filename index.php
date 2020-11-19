@@ -686,7 +686,7 @@
             <div class="container">
                <div class="blog">
                   <div class="heading__" data-aos="fade-up"  data-aos-duration="1000">
-                     <h1>Blog</h1>
+                     <h1>Natural Blog</h1>
                   </div>
                   <div class="row m-0" style="justify-content: space-between;" data-aos="fade-up"  data-aos-duration="1000">
                      <div class="col-md-6">

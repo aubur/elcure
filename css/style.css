@@ -156,6 +156,7 @@ header .navbar-light .navbar-nav .nav-link {
     text-transform: uppercase;
     font-size: 14px;
     padding: 28px 15px;
+    padding:    5px 15px 10px;
 }
 header .navbar-expand-lg{
     padding-top: 0;
@@ -1846,7 +1847,9 @@ header .mobile-cart {
     font-size: 13px;
     line-height: 23px;
 }
-
+.footer-widget a{
+    color:  #fff;
+}
 .carousel-control-prev,
 .carousel-control-next {
     z-index: 999;
@@ -2697,6 +2700,18 @@ header  .overlay button {
 
 header .overlay button:hover {
   background: #bbb;
+}
+footer
+.footer-copy a{
+    color:  #fff;
+    text-decoration:    none;   
+}
+footer .footer-copy a span{
+    border-right: 1px solid #fff;
+    display:    inline-block;   
+    height:     10px;
+    width:  2px;
+    margin:   0  10px;
 }
 footer
 .footer-copy{
