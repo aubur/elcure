@@ -4,15 +4,17 @@
                 <div class="marquee" style="    padding: 10px 0 0;
                     margin: 0;
                     font-size: 14px;
-                    background: #495E3D;
-                    color:#fff;
+                    background: #FA5C05;
+                    color:#12492C;
                     }">
-                    <marquee>🔔Big Super Saver Week: Upto 30% Off On Monthly Regimes. Limited Time Offer! 🔔</marquee>
+                    <marquee>
+                    <strong>Grab the SALE!</strong> Subscribe for Product updates and Promotional <strong>OFFERS!</strong>
+                    </marquee>
                 </div>
             </div>
-            <div class="menu-sec desktop-nav-bar" style="background: #c5e6e6">
+            <div class="menu-sec desktop-nav-bar" style="background: #fff">
               <a class="navbar-brand text-center w-100" href="index.php">
-                        <img src="images/logo.png" alt="" style="width: 85px">
+                        <img src="images/logo.png" alt="" style="width: 115px">
                         </a>
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-lg navbar-light ">
@@ -25,13 +27,13 @@
                         <div class="collapse navbar-collapse desktop-nav" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link active" href="welness.php">Wellness <i class="fas fa-angle-down"></i></a>
+                                    <a class="nav-link active" href="welness.php">Wellness </a>
                                     <div class="dropdown-content back-attach">
                                       <div class="row" style="justify-content: center;  " >
                                         <div class="col-8">
-                                          <a href="#">tea tree essential oil</a>
-                                          <a href="#">lemongrass essential oil</a>
-                                          <a href="#">rosemary  essential oil</a>
+                                          <a href="#">essential oil</a>
+                                          <!-- <a href="#">lemongrass essential oil</a>
+                                          <a href="#">rosemary  essential oil</a> -->
                                         </div>
                                         <div class="col-4">
                                           <img src="images/handwash.jpeg" class="img-hover">
@@ -40,7 +42,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="beauty.php">Beauty <i class="fas fa-angle-down"></i></a>
+                                    <a class="nav-link" href="beauty.php">Beauty </a>
                                     <div class="dropdown-content back-attach">
                                       <div class="row" style="justify-content: center;  " >
                                         <div class="col-8">
@@ -54,7 +56,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="facecare.php"> Facecare <i class="fas fa-angle-down"></i></a>
+                                    <a class="nav-link" href="facecare.php"> Facecare </a>
                                      <div class="dropdown-content back-attach">
                                       <div class="row" style="justify-content: center;  " >
                                         <div class="col-8">
@@ -67,7 +69,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="skincare.php">Skincare <i class="fas fa-angle-down"></i></a> 
+                                    <a class="nav-link" href="skincare.php">Skincare </a> 
                                     <div class="dropdown-content back-attach">
                                       <div class="row" style="justify-content: center;  " >
                                         <div class="col-8">
@@ -80,7 +82,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="haircare.php">Haircare <i class="fas fa-angle-down"></i></a>
+                                    <a class="nav-link" href="haircare.php">Haircare</a>
                                      <div class="dropdown-content back-attach">
                                       <div class="row" style="justify-content: center;  " >
                                         <div class="col-8">
@@ -93,16 +95,17 @@
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="hygiene.php">Hygiene <i class="fas fa-angle-down"></i></a>
+                                    <a class="nav-link" href="hygiene.php">Hygiene </a>
                                      <div class="dropdown-content back-attach">
                                       <div class="row" style="justify-content: center;  " >
-                                        <div class="col-8">
+                                      <div class="col-8">
                                         <a href="#">Body & hand wash</a>
                                       </div>
                                       <div class="col-4">
                                           <img src="images/handwash.jpeg" class="img-hover">
                                       </div>
                                     </div>
+                                  </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="product_list.php">Products</a>
@@ -110,8 +113,22 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="ingredients.php">Ingredients </a>
                                 </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="ingredients.php">Accessories </a>
+                                    <div class="dropdown-content back-attach">
+                                      <div class="row" style="justify-content: center;  " >
+                                      <div class="col-8">
+                                        <a href="#">Care With Nature </a>
+                                      </div>
+                                      <div class="col-4">
+                                          <img src="images/handwash.jpeg" class="img-hover">
+                                          <p></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About Us </a>
+                                    <a class="nav-link" href="about-us.php">About</a>
                                 </li>
                             </ul>
                         </div>
@@ -120,8 +137,8 @@
                               <button  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: transparent;border: none;overflow: hidden;">
                                 <img src="images/search.svg">
                               </button>
-                              <div class="dropdown-menu p-0 w-100" aria-labelledby="dropdownMenuButton">
-                                <div class="form-group p-0 m-0">
+                              <div class="dropdown-menu p-0 " aria-labelledby="dropdownMenuButton">
+                                <div class="form-group p-0 m-0" style=" ">
                                     <input type="search" name="" class="form-control" placeholder="Search...">
                                 </div>
                               </div>
@@ -163,7 +180,7 @@
                               <button  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: transparent;border: none;overflow: hidden;">
                                 <img src="images/search.svg">
                               </button>
-                              <div class="dropdown-menu p-0 w-100" aria-labelledby="dropdownMenuButton">
+                              <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
                                 <div class="form-group p-0 m-0">
                                     <input type="search" name="" class="form-control" placeholder="Search...">
                                 </div>

@@ -189,6 +189,9 @@ header .navbar-light .navbar-nav .nav-link{
 	}
 }
 @media screen and (max-width: 480px) {
+	.breadcrum{
+		padding: 1rem 0;
+	}
 	.Checkout-proceed-sec{
 		display: block;
 	}

@@ -7,33 +7,32 @@
          <section>
             <div class="container-fluid p-0">
                <div class="carosuel-section">
-                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="50000">
                      <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
                      </ol>
                      <div class="carousel-inner">
-                        <div class="carousel-item carosuel_1 active" style="background-image: url(images/slider-1.jpg);">
+                        <div class="carousel-item carosuel_1 active" style="">
                            <div class="row align-items-center m-0 ">
                               <div class="col-md-7 col-6 d-n" style="height: 100vh">
                               </div>
                               <div class="col-md-5 col-12">
                                  <div class="hero-content  text-center ">
-                                    <h2 class="animate__animated animate__fadeInRight animate__delay-1s">HAIR OIL</h2>
-                                    <h1 class="animate__animated animate__fadeInUp animate__delay-2s">FOR GLOSSY <br>  AND <br>STYLISH HAIR</h1>
-                                    <a class="btn btn-round btn-lg btn-theme btn_ animate__animated animate__fadeInLeft animate__delay-3s" href="cart.php" tabindex="0">SHOP NOW</a>
+                                    <h2 class="">HAIR OIL</h2>
+                                    <h1 class="">FOR GLOSSY <br>  AND <br>STYLISH HAIR</h1>
+                                    <a class="btn btn-round btn-lg btn-theme btn_" href="cart.php" tabindex="0">SHOP NOW</a>
                                  </div>
                               </div>
                            </div>
                         </div>
-                        <div class="carousel-item carosuel_2" style="background-image: url(images/slider-2.png);">
+                        <div class="carousel-item carosuel_2" style="">
                            <div class="row align-items-center m-0">
                               <div class="col-md-5 col-12">
                                  <div class="hero-content  text-center ">
-                                    <h2 class="animate__animated animate__fadeInRight animate__delay-1s">HAIR OIL</h2>
-                                    <h1 class="animate__animated animate__fadeInUp animate__delay-2s">FOR GLOSSY <br>  AND <br>STYLISH HAIR</h1>
-                                    <a class="btn btn-round btn-lg btn-theme btn_ animate__animated animate__fadeInLeft animate__delay-3s" href="cart.php" tabindex="0">SHOP NOW</a>
+                                    <h2 class="">HAIR OIL</h2>
+                                    <h1 class="">FOR GLOSSY <br>  AND <br>STYLISH HAIR</h1>
+                                    <a class="btn btn-round btn-lg btn-theme btn_" href="cart.php" tabindex="0">SHOP NOW</a>
                                  </div>
                               </div>
                               <div class="col-md-7 col-12 d-n" style="height: 100vh">
@@ -44,26 +43,16 @@
                            </div>
                         </div>
                      </div>
-                     <!--        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                        </a> -->
                   </div>
                </div>
             </div>
          </section>
-         <section class="back-attach">
+         <section class="">
             <div class="container  py-fix " >
                <div class="why-ecalre why_">
                   <div class="heading__" data-aos="fade-up"  data-aos-duration="1000">
                      <h1>ELCare</h1>
-                     <div class="heading_back">
-                        ECare
-                     </div>
+                     <p>CARE WITH NATURE </p>
                   </div>
                   <div class="row align-items-center m-0" data-aos="fade-up"  data-aos-duration="1000">
                      <div class="col-md-5 mr-auto order-1 order-md-2 col-12 mb-30">
@@ -112,15 +101,13 @@
                </div>
             </div>
          </section>
-         <section class="back-attach3">
+         <section class="">
             <form action="cart.php">
                <div class="featured ft mt-fix">
                   <div class="container">
                      <div class="heading__"  data-aos="fade-up"  data-aos-duration="1000">
                         <h1>Solutions</h1>
-                        <div class="heading_back">
-                           Solutions
-                        </div>
+                        <p>NATURAL ADVANCED EFFECTIVE</p>
                      </div>
                      <div class="Products-carosuel mb-5"  data-aos="fade-up"  data-aos-duration="1000">
                         <div class="Products-sec col-4 p-0">
@@ -254,12 +241,10 @@
                </div>
             </form>
          </section>
-         <section class="back-attach3">
+         <section class="">
             <div class="heading__" data-aos="fade-up"  data-aos-duration="1000">
                <h1>Best seller</h1>
-               <div class="heading_back">
-                  ECare
-               </div>
+               <p>Customers Favourite Pick</p>
             </div>
             <div class="container">
                <div class="Tab-section" data-aos="fade-up"  data-aos-duration="1000">
@@ -644,7 +629,8 @@
          </section>
          <section class=" text-center fade mb-5" style="opacity: 1;margin-top:   7rem">
             <div class="heading__" data-aos="fade-up"  data-aos-duration="1000">
-               <h1>Testimonial</h1>
+               <h1>FROM OUR COMMUNITY</h1>
+               <p>Synthetic Free Radiant Life</p>
             </div>
             <div class=" testimonial ">
                <div class="container">
@@ -682,11 +668,12 @@
                </div>
             </div>
          </section>
-         <section class="back-attach4">
+         <section class="">
             <div class="container">
                <div class="blog">
                   <div class="heading__" data-aos="fade-up"  data-aos-duration="1000">
-                     <h1>Natural Blog</h1>
+                     <h1>THE ELCARE EDIT</h1>
+                     <p>GO NATURAL! For Radiant Skin</p>
                   </div>
                   <div class="row m-0" style="justify-content: space-between;" data-aos="fade-up"  data-aos-duration="1000">
                      <div class="col-md-6">
@@ -698,7 +685,7 @@
                               </div>
                            </div>
                            <div class="blog-content">
-                              <h2>Blog Heading</h2>
+                              <h2>Go Natural</h2>
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
                               </p>
@@ -715,7 +702,7 @@
                               </div>
                            </div>
                            <div class="blog-content">
-                              <h2>Blog Heading</h2>
+                              <h2>Professional C Serum</h2>
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven
                               </p>
@@ -875,3 +862,5 @@
       <?php include 'footer.php';?>
    </body>
 </html>
+<!-- 
+8jm4t7fm5j -->

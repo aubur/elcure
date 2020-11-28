@@ -4,21 +4,12 @@
                <div class="footer-widget-wrap row" style="justify-content: center;">
                   <div class="col-md-3 mb-40">
                      <div class="footer-widget">
-                       <h3 class="title">Contact Us</h3>
-                        <p>We provide the best  oil all over the world. We are the worldd best store for  Oil. You can buy our</p>
-                        <p>228, East Zone, Momeno Tower, South City, India</p>
-                        <p>For help with orders, returns, or general product questions, please email <a href="mailto:customercare@elcur.com">customercare@elcur.com or call <a href="callto:10001000100800">10001000100800 </a></p>
-                        <p>10 am-5pm  Mon-Fri (IST)</p>
-                     </div>
-                  </div>
-                  <div class="col-md-3 mb-40">
-                     <div class="footer-widget">
-                        <h3 class="title">Who we are</h3>
+                       <h3 class="title">Quick Link</h3>
                         <ul>
-                           <li><a href="#">We are solution providers</a></li>
-                           <li><a href="#">We explore the nature</a></li>
-                           <li><a href="#">We are trustworthy</a></li>
-                           <li><a href=" #"> We care for you</a></li>
+                           <li><a href="#">We we are</a></li>
+                           <li><a href="#">ELCare's Story</a></li>
+                           <li><a href="#">All Products</a></li>
+                           <li><a href=" #">GO Natural Blog</a></li>
                         </ul>
                      </div>
                   </div>
@@ -26,9 +17,20 @@
                      <div class="footer-widget">
                         <h3 class="title">Information</h3>
                         <ul>
+                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="#">Careers</a></li>
+                           <li><a href="#">Shipping + Returns</a></li>
+                           <li><a href=" #">Policy</a></li>
+                           <li><a href=" #">FAQ</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-3 mb-40">
+                     <div class="footer-widget">
+                        <h3 class="title">Account</h3>
+                        <ul>
                            <li><a href="#">Login</a></li>
                            <li><a href="#">My Account</a></li>
-                           <li><a href="#">Terms &amp; Conditions</a></li>
                            <li><a href="#">Order Tracking</a></li>
                         </ul>
                      </div>
@@ -42,6 +44,16 @@
                            <li><a href="#"><img src="images/twitter.png"></a></li>
                            <li><a href="#"><img src="images/YT.png"></a></li>
                         </ul>
+                        <h3>NEED HELP?  </h3>
+                        <ul>  
+                           <li>Reach out us at<a href="  "> care@elcur.in</a></li>
+                        </ul>
+                        <h3>STAY in the know</h3>
+                        <p>Sign up for exclusive offers, event details and skincare tips to help you feel real</p>
+                        <div class="form-group cx text-left">
+                           <input type="  " name="" class=" form-control" placeholder="   Enter E-mail Address" >
+                           <button class="btn" style="background: #12492C;">SUBMIT</button>
+                        </div>
                      </div>
                   </div>
                </div>

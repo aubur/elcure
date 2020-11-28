@@ -4,7 +4,7 @@
    <body>
       <?php include 'header.php';?>
       <main>
-        <section style="padding-top: 113px">
+        <section class="banner-top-fix">
           <div class="inner-banner" style="background: url(images/wellness.jpg);    background-size: cover;background-position: left;">
             <!--  <img src="images/inner-banner.svg" alt=""> -->
               <h1><?php echo $header_name;?></h1>
